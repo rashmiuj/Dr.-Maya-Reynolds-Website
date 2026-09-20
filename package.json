@@ -12,7 +12,7 @@
     "@tailwindcss/postcss": "^4.3.3",
     "lucide-react": "^0.546.0",
     "motion": "^12.23.24",
-    "next": "15.2.1",
+    "next": "15.5.25",
     "postcss": "^8.5.28",
     "react": "19.0.0",
     "react-dom": "19.0.0",
@@ -22,14 +22,15 @@
     "@types/node": "^22.14.0",
     "@types/react": "19.3.0",
     "eslint": "^8.57.1",
-    "eslint-config-next": "^15.2.1",
+    "eslint-config-next": "15.5.25",
     "typescript": "~5.8.2"
   },
   "overrides": {
     "@typescript-eslint/eslint-plugin": "8.26.0",
     "@typescript-eslint/parser": "8.26.0",
     "@typescript-eslint/visitor-keys": "8.26.0",
-    "eslint-visitor-keys": "4.2.0"
+    "eslint-visitor-keys": "4.2.0",
+    "postcss": "^8.5.28"
   },
   "optionalDependencies": {
     "lightningcss-darwin-arm64": "^1.32.0",
