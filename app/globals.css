@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Nunito Sans", sans-serif;
+  --font-serif: "Cormorant Garamond", "Libre Baskerville", serif;
+  --font-script: "Caveat", "Alex Brush", cursive;
+  
+  /* Ocean & Warm Sand Theme inspired by Santa Monica */
+  --color-primary: #1e3344; /* Deep Coastal Navy */
+  --color-secondary: #5e849c; /* Soft Ocean Blue */
+  --color-teal-script: #4e8293; /* Muted coastal teal for handwritten script */
+  --color-accent: #c48b71; /* Warm Terracotta / Sand */
+  --color-bg-light: #fbf8f3; /* Warm Linen Cream matching reference */
+  --color-bg-alt: #f3eee6; /* Soft Sand */
+  --color-text-dark: #1e262e; /* Dark Slate */
+  --color-text-muted: #536270; /* Slate Gray */
+}
+
+@layer base {
+  body {
+    @apply bg-bg-light text-text-dark font-sans antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif text-primary font-normal;
+  }
+}
+
+.font-script {
+  font-family: var(--font-script);
+}
