@@ -13,7 +13,7 @@ Cloned and creatively redesigned with Next.js + Tailwind CSS, preserving the ori
   - **About Dr. Maya Reynolds**: Features her official portrait, clinical background, and warm, collaborative therapy philosophy.
   - **3 Core Specializations**: Dedicated sections for Anxiety & Panic, Trauma & EMDR, and Burnout for High Achievers.
   - **Custom "Our Office" Section**: Showcases her physical Santa Monica office space with photos, physical address (`123th Street 45 W`), and in-person/telehealth availability.
-  - **Evidence-Based Approach & FAQs**: Highlights modalities (CBT, EMDR, Somatic, Mindfulness) and interactive answers to common questions.
+  - **Evidence-Based Approach & FAQs**: Highlights modalities (CBT, EMDR, Somatic, Mindfulness) and answers to common questions.
 - **Interactive Intake Modal**:
   - Clean on-page button triggering a confidential intake modal inspired by modern counseling practices (Conejo Valley Counseling flow).
   - Includes First & Last Name, Email, Phone, Telehealth vs. In-Person dropdown with placeholder selection, Presenting Issues, and Minor Age fields.
